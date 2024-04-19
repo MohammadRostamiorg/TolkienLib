@@ -86,3 +86,37 @@ header > #btns > a{
     gap: 20px;
     flex-wrap: wrap;
 }
+
+
+@media screen and (max-width: 1200px) {
+    header h1 {
+        font-size: 36px;
+        padding-top: 20vh;
+    }
+}
+@media screen and (max-width: 1000px) {
+    header h1 {
+        font-size: 24px;
+        padding-top: 10vh;
+    }
+
+    header > #btns > a{
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 780px) {
+    header h1 {
+        font-size: 18px;
+        padding-top: 5vh;
+    }
+
+    header > #btns > a{
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
