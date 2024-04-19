@@ -85,8 +85,11 @@ header > #btns > a{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
+#fa{
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width: 1200px) {
     header h1 {
