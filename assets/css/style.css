@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: url("../images/wp11863757-lord-of-the-rings-characters-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vw;
+
+}
+
+header h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 30vh;
+    font-size: 48px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+}
+
+header #btns{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+header > #btns > a{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    border: none;
+    background: #5392ff;
+    color: #fff;
+    box-shadow: 0 0 5px #777777;
+    font-size: 20px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+    line-height: 70px;
+}
+
+#books{
+    width: 80%;
+    margin: 100px auto;
+}
+#books h2{
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+#books .book {
+    width: 200px;
+    height: 200px;
+    background: #0b2d7d;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+#books .book .name{
+    font-size: 20px;
+}
+
+#books .book .downloadLink{
+    display: block;
+    width: 50%;
+    height: 30px;
+    background: #7dff6d;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#books #fa,#en {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
